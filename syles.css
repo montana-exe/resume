@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: "Roboto", "sans-serif";
+    font-size: 16px;
+    font-weight: normal;
+    color: #0F141E;
+    background: #f1f1f1;
+}
+.hobbi{
+    background-color: #e4e8ff;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.exp{
+    background-color: #ede4ff;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.form{
+    background-color: #fee3ec;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#ava{
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 15px;
+}
+.container p{
+    margin: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+}
+a:hover{
+    color: #228b22;
+}
+.btn{ 
+    background: #e3b0c2;
+    border: none;
+    padding: 12px 45px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.btn:hover{
+    opacity: .8;
+}
+.hobbi h2{
+    text-align: center;
+}
+.hobbi ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+}
+.hobbi ul li{
+    margin-right: 10px;
+    margin: 10px;
+    background: #bfc7f3;
+    border-radius: 10px;
+    text-align: center;
+}
+.hobbi ul li:hover{
+    opacity: .8;
+}
+.hobbi ul li:last-child{
+    margin-right: 0;
+}
+.exp{
+    text-align: center;
+}
+.exp table{
+    width: 100%;
+}
+.exp table td{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.exp table tr:nth-child(even){
+    background: #dfd2f9;
+}
+.exp table td:hover{
+    opacity: .8;
+}
+.exp table tr:first-child{
+    font-weight: bold;
+    background: #ede4ff;
+    cursor: none;
+}
+.info{
+    display: flex;
+    margin-bottom: 15px;
+}
+.info-text{
+    margin-left: 15px;
+}
+.form h2{
+    text-align: center;
+}
+.forms label{
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+.forms input, .forms textarea{
+    border: #000;
+    background: #fbd5e2;
+    border-radius: 10px;
+    display: block;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(218, 162, 156);
+    outline: none;
+    padding: 15px 0 10px 5px;
+}
+.forms-text .forms{
+    display: inline-block;
+    margin-right: 10px;
+    width: 48%;
+    margin-bottom: 10px;
+}
+@media(max-width: 650px){
+    .container{
+        font-size: 0,5rem;
+        text-align: center;
+    }
+    .info{
+        display: block;
+    }
+    .forms input, .forms textarea{
+        display: flex;
+    }
+    .hobbi ul li{
+        margin-right: 0px;
+        margin: 5px;
+        padding-left: 0;
+    }
+    .hobbi ul{
+        list-style: none;
+        padding-left: 0px;
+        display: block;
+    }
+    .forms-text .forms{
+        display: inline-block;
+        margin-right: 10px;
+        width: 44%;
+        margin-bottom: 10px;
+    }
+}
